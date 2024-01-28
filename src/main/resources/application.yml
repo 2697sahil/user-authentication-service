@@ -1,0 +1,14 @@
+logging:
+  level:
+    org:
+      springframework: INFO
+#        security: INFO
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: user-authentication-service
+#      username: root_user
+#      password: root_password
